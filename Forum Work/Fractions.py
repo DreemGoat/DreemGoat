@@ -9,7 +9,7 @@ else:
 y = int(input("Enter a denominator,Value must be greater than 0: "))
 while x <= 0:
     print("Invalid, number must be positive.")
-    y = int(input("Re-Enter a numerator: "))
+    y = int(input("Re-Enter a denominator: "))
 else:
     print("denominator =", y)
 z= math.gcd(x,y)

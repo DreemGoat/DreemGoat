@@ -1,6 +1,0 @@
-x1 = float(input("Enter X1 coordinate: "))
-x2 = float(input("Enter X2 coordinate: "))
-y1 = float(input("Enter Y1 coordinate: "))
-y2 = float(input("Enter Y2 coordinate: "))
-z = (y2-y1)/(x2-x1)
-print("The slope for the line that connects two points",  (x1,y1), "and",  (x2,y2), "is", round(z, 5) )

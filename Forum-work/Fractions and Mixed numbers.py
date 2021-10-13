@@ -15,7 +15,11 @@ else:
 z= math.gcd(x,y)
 if x < y:
     print(x,"/",y,"is a proper fraction")
-    if x/2 = int:
-        print("the f")
+    if z == 1:
+        print("The number can't be reduced")
+    elif z > 1:
+        x = x/z
+        y = y/z
+        print("The reduced form is", x,"/",y)
 elif x > y:
     print(x,"/",y,"is an improper fraction")

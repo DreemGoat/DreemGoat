@@ -8,5 +8,5 @@ def convert_temp():
     Tf = float(input("Enter a tempterature in Fahrenheit: "))
     print("The temperature in Fahrenheit is: ", Tf)
     print("The temperature in Celcius is: ",convert_to_celcius(Tf))
-    print("The temperature in Kelvin is: ",convert_to_kelvin(convert_to_celcius(Tf))) #writing the functions in the print is shoter and has the same end result
+    print("The temperature in Kelvin is: ",convert_to_kelvin(convert_to_celcius(Tf))) #writing the functions in the print is shorter and has the same end result
 convert_temp()

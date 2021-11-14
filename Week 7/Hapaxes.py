@@ -1,6 +1,6 @@
 import os
 import re
-os.chdir("/Users/dep50/OneDrive/Documents/Coding Projects/Some Notes")
+os.chdir("/Users/dep50/OneDrive/Documents/Coding Projects/DreemGoat/Week 7")
 file = open("Poems of Arthur Hugh Clough.txt","r")
 def hapax(file):
     words = re.findall('\w+', file.read().lower())
@@ -13,3 +13,4 @@ def hapax(file):
 
 
 hapax(file)
+file.close
